@@ -1,0 +1,194 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+}
+
+/* == Header == */
+
+header {
+  background: #fcdb00;
+  color: #010101;
+  padding-top: 58px;
+}
+
+.menu {
+  margin-top: 10px;
+}
+
+.menu__item {
+  margin: 0 57px;
+}
+
+.menu__item a {
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.content {
+  background: #fcdb00;
+}
+
+.content__title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.6;
+  padding-top: 130px;
+}
+
+.subtitle {
+  margin: 25px 0;
+  font-size: 20px;
+  color: #313841;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.text {
+  width: 395px;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.icons a {
+  font-size: 42px;
+  color: #000;
+  margin-right: 37px;
+
+  text-decoration: none;
+  transition: color 0.1s linear;
+}
+
+.icons a:hover {
+  color: orange;
+}
+
+.tablet {
+  padding-top: 70px;
+  padding-bottom: 105px;
+}
+
+/* == Feature == */
+
+.title__head {
+  margin: 0 auto;
+  font-size: 32px;
+  line-height: 1;
+  color: #010101;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.feature__text {
+  font-size: 20px;
+  line-height: 24px;
+  color: #313841;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.feature__icon {
+  font-size: 50px;
+  color: #000;
+  margin-right: 35px;
+}
+
+.feature__inner h2 {
+  font-size: 22px;
+  color: #010101;
+  font-weight: 400;
+}
+
+.feature__inner p {
+  font-size: 16px;
+  color: #898989;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.feature__item {
+}
+
+.test__1 {
+  margin-top: 25px;
+}
+
+.feature__inner .test__1 {
+  margin-bottom: 50px;
+}
+
+.yellow {
+  color: #fcdb00;
+  padding-top: 80px;
+}
+
+.touch {
+  background: #010101;
+  padding-bottom: 30px;
+}
+
+.touch__text {
+  font-size: 20px;
+  color: #898989;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.touch__input {
+  font-family: "PT Sans", sans-serif;
+  background: #fff;
+  width: 580px;
+  padding: 10px 0;
+  border-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+  border: 0;
+}
+
+.touch__btn {
+  font-family: "PT Sans", sans-serif;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  background: #fcdb00;
+  padding: 10px 30px;
+  margin-left: 15px;
+
+  border-radius: 5px;
+  width: 128px;
+  border: 0;
+}
+
+.footer {
+  background: #000;
+}
+
+.credits {
+  display: block;
+
+  color: #fff;
+}
